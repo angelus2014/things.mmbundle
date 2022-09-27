@@ -23,7 +23,7 @@ on run argv
 			set theToDo to make new to do at beginning of list "Inbox"
 			set name of theToDo to theName
 			set notes of theToDo to theMessage & "\n" & theNote
-			set tag names of theToDo to "Mail"
+			set tag names of theToDo to "@Email"
 		end if
 	end tell
 end run
